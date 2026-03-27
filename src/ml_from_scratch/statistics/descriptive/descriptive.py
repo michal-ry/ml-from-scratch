@@ -20,7 +20,7 @@ def mean(numbers):
         raise TypeError ("numbers must not contain bool values.") 
     
     if not all(isinstance(n, (int, float)) for n in numbers):
-        raise TypeError ("numbers must contain only int or float values."))
+        raise TypeError ("numbers must contain only int or float values.")
 
     numbers_len = len(numbers)
     numbers_sum = sum(numbers)
