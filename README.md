@@ -17,11 +17,10 @@ The project is being developed alongside my learning journey in:
 - Algorithms
 
 ## ⚙️ Current Implementation
-*(coming soon)*
+- Mean (function, tests, examples, benchmark)
 
 ## 🔜 Next Step
 Descriptive Statistics:
-- Mean
 - Median
 - Mode
 - Min, max, range
