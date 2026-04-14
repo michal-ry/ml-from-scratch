@@ -1,4 +1,4 @@
-from ml_from_scratch.statistics.descriptive.descriptive import mean as fs_mean
+from ml_from_scratch.statistics.descriptive.mean import mean as fs_mean
 import numpy as np
 
 

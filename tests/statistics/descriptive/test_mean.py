@@ -1,5 +1,5 @@
 import pytest
-from ml_from_scratch.statistics.descriptive.descriptive import mean
+from ml_from_scratch.statistics.descriptive.mean import mean
 
 def test_not_a_list():
     
