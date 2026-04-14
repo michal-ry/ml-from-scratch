@@ -4,7 +4,7 @@
 
 The median is the middle value of a sorted in ascending order dataset.
 
-It devides the dataset into two equal halves.
+It divides the dataset into two equal halves.
 
 ### Formula
 
@@ -12,7 +12,7 @@ It devides the dataset into two equal halves.
 
 $$\tilde{x} = x_{\left(\frac{n+1}{2}\right)}$$
 
-#### Median for even number of observation:
+#### Median for even number of observations:
 
 $$\tilde{x} = \frac{x_{\left(\frac{n}{2}\right)} + x_{\left(\frac{n}{2}+1\right)}}{2}$$
 
