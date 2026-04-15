@@ -5,7 +5,7 @@ import numpy as np
 def mean_example():
 
     '''
-    Compare mean calculated from scratch with NumPy
+    Compare mean calculated from scratch with NumPy.
     '''
 
     numbers = [3, 3, 4, 50]
