@@ -19,10 +19,10 @@ The project is being developed alongside my learning journey in:
 ## ⚙️ Current Implementation
 - Mean (function, tests, examples, benchmark)
 - Median (function, tests, examples, benchmark)
+- Mode (function, tests, examples, benchmark)
 
 ## 🔜 Next Step
 Descriptive Statistics:
-- Mode
 - Min, max, range
 - Variance
 - Standard deviation
