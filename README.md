@@ -20,10 +20,12 @@ The project is being developed alongside my learning journey in:
 - Mean (function, tests, examples, benchmark)
 - Median (function, tests, examples, benchmark)
 - Mode (function, tests, examples, benchmark)
+- Minimum (function, tests, examples, benchmark)
 
 ## 🔜 Next Step
 Descriptive Statistics:
-- Min, max, range
+- Standardize benchmark inputs across completed modules.
+- Max, range
 - Variance
 - Standard deviation
 - Percentiles
@@ -61,7 +63,10 @@ Sorting and optimization techniques
 - Implementation from scratch
 - Tests
 - Demos / examples
-- Bonus: Benchmark vs NumPy
+- Bonus: Benchmark vs NumPy:
+
+Benchmark note:
+- NumPy benchmarks use `ndarray`, while from-scratch implementations use Python `list`.
 
 ## 🛠️ Tech Stack
 
