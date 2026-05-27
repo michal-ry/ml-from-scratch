@@ -13,7 +13,7 @@ $$x_{\min} = \min(x_1, x_2, \ldots, x_n)$$
 - Minimum represents the lowest value in a dataset
 - It can help identify extremely low values or possible outliers
 
-### When to use  it
+### When to use it
 
 - When working with numerical data
 - To find the smallest value
@@ -22,7 +22,7 @@ $$x_{\min} = \min(x_1, x_2, \ldots, x_n)$$
 
 ### When not to use it
 
-- When data are categorical
+- When data is categorical
 - When you need a measure of central tendency
 
 ### Example

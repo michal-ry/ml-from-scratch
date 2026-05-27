@@ -21,11 +21,12 @@ The project is being developed alongside my learning journey in:
 - Median (function, tests, examples, benchmark)
 - Mode (function, tests, examples, benchmark)
 - Minimum (function, tests, examples, benchmark)
+- Maximum (function, tests, examples, benchmark)
 
 ## 🔜 Next Step
 Descriptive Statistics:
 - Standardize benchmark inputs across completed modules.
-- Max, range
+- Range
 - Variance
 - Standard deviation
 - Percentiles
