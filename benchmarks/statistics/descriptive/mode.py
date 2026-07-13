@@ -10,6 +10,7 @@ def mode_benchmark():
     '''
 
     np.random.seed(42)
+    
     numbers = np.random.randint(0, 20, 100000).tolist()
     numbers_series = pd.Series(numbers)
 

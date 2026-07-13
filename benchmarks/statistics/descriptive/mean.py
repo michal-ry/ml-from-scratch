@@ -1,6 +1,7 @@
-from ml_from_scratch.statistics.descriptive.mean import mean as fs_mean
-import numpy as np
 import timeit
+import numpy as np
+from ml_from_scratch.statistics.descriptive.mean import mean as fs_mean
+
 
 def mean_benchmark():
 
@@ -8,9 +9,12 @@ def mean_benchmark():
     Benchmark mean from scratch vs NumPy.
     '''
 
-    numbers = list(range(1, 100001))
+    np.random.seed(42)
 
-    from_scratch_time = timeit.timeit(lambda: fs_mean(numbers), number=1000)
+    numbers = np.random.randint(1, 100, size=100000)
+    numbers_list = numbers.tolist()
+
+    from_scratch_time = timeit.timeit(lambda: fs_mean(numbers_list), number=1000)
     numpy_time = timeit.timeit(lambda: np.mean(numbers), number=1000)
     ratio = from_scratch_time / numpy_time
 
@@ -24,6 +28,7 @@ def mean_benchmark():
         print(f'NumPy is {slower_ratio:.2f}x slower.')
     else:
         print('NumPy and from scratch are equally fast.')
+
 
 if __name__ == "__main__":
     mean_benchmark()

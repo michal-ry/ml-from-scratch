@@ -9,9 +9,11 @@ def median_benchmark():
     '''
 
     np.random.seed(42)
-    numbers = np.random.randint(0, 100000, 100000).tolist()
 
-    from_scratch_time = timeit.timeit(lambda: fs_median(numbers), number=1000)
+    numbers = np.random.randint(0, 100000, 100000)
+    numbers_list = numbers.tolist()
+
+    from_scratch_time = timeit.timeit(lambda: fs_median(numbers_list), number=1000)
     numpy_time = timeit.timeit(lambda: np.median(numbers), number=1000)
     ratio = from_scratch_time / numpy_time
 
